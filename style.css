@@ -18,7 +18,6 @@
     overflow-x:hidden;
     overflow-y:auto;
     perspective:10px;
-   
 }
 
 .container{
@@ -29,7 +28,6 @@
     height:100%;
     transform-style: preserve-3d;
     z-index: -1;
-    
 }
 
 
@@ -65,7 +63,7 @@
  section{
     background-color: var(--background-color);
     color: var(--Text-color);
-    padding:5rem 0;
+    padding: 5rem 0;
  }
 
  .secHeading{
@@ -91,8 +89,6 @@
     text-transform: uppercase;
     background-color: var(--Text-color);
     color: var(--desc-Text-color);
-
-  
 }
  
 
@@ -118,30 +114,103 @@
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+}
+a {
+    text-decoration: none;
+}
+section .naam {
+    padding: 5px;
+    margin-left: 5%;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+
+}
+
+/* Tables */
+@media (min-width: 493px) and (max-width: 960px) {
+
+        .container {
+            width: 100%;
+            height: 100%;
+        }
+
+        .container h1 {
+            font-size: 5rem;
+            letter-spacing: 2px
+        }
+
+        .secHeading{
+            font-size: 2.5rem;
+            padding: 0 5rem;
+            text-align: center;
+        }
+
+        .text{
+           font-size: 1.5rem;
+           padding: 0 5rem;
+           margin: 2.5rem 0;
+        }
+
+        .desc {
+            padding: 0.5rem 2rem;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        .background,
+        .foreground {
+            height: 100%;
+            width: 100%;
+        }
+
+}
+
+/* Mobiles */
+@media (min-width: 280px) and (max-width: 493px) {
+
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container h1 {
+        font-size: 2.5rem;
+        letter-spacing: 1.5px
+    }
+
+    .secHeading{
+        font-size: 1.5rem;
+        padding: 0 2.6rem;
+        text-align: center;
+    }
+
+    .text{
+       font-size: 1rem;
+       padding: 0 3rem;
+       margin: 1rem 0;
+       font-weight: 500;
+    }
+
+    .desc {
+        padding: 0.5rem 2rem;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .background,
+    .foreground {
+        height: 100%;
+        width: 100%;
+    }
+
+    .naam {
+        padding: 2px;
+        margin-left: 20px;
+        text-align: center;
+        text-transform: uppercase;
+    }
     
 }
 
-mark{
-    flex-wrap: wrap;
-    position: relative;
-    left: 40%;
-    bottom: -0%;
-    padding: 1rem;
-    font-weight: bold;
-    text-shadow: 0 0 20 var(--Text-shadow-color);
-    border-radius: 16px 0 16px 0;
-   
-}
-
-.my_img{
-   width: 25px;
-   height: 25px; 
-   position: relative;
-   left: 0.5%;
-   top: 0.2cm;
-   border-radius: 4px;
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-transform: translateZ(-8px) scale(1.3);
-}
