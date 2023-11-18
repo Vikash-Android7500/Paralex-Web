@@ -95,15 +95,15 @@
 /* images */
 
 .bg1{
-    background-image: url(../assets/sport-1.jpg);
+    background-image: url("http://127.0.0.1:5500/paralexWeb/sport-1.jpg");
 }
 
 .bg2{
-    background-image: url(../assets/sport-2.jpg);
+    background-image: url("http://127.0.0.1:5500/paralexWeb/sport-2.jpg");
 }
 
 .bg3{
-    background-image: url(../assets/sport-3.jpg);
+    background-image: url("http://127.0.0.1:5500/paralexWeb/sport-3.jpg");
 }
 
 /* background */
